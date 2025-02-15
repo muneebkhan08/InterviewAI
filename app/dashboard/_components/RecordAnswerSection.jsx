@@ -132,7 +132,6 @@ const RecordAnswerSection = ({ questions, activeQuestionIndex, setAnswer, setAll
                         : <div className='flex gap-2 text-primary items-center'> <Mic/>Start Recording</div>
                     }
                 </Button>
-                <Button onClick={SeeUser}>See user</Button> 
             </div>
         </div>
     )
